@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+.modal-Rbody{
+	padding:10px;
+	margind:10px;
+	width:100%;
+	height:auto;
+}
+
+.identify{
+	width:100%;
+	height:150px;
+	text-align: center;
+	
+	border
+	
+}
+.nidentify{
+	width:100%;
+	height:150px;
+	text-align: center;
+	
+	
+	
+}
+#srcInfo{
+	float:left;
+	width:50%;
+	height:10%;
+}
+#targetInfo{
+	float:right;
+	width:50%;
+	height:10%;
+}
+
+.identify button{
+	width:70%;
+	height:100%;
+	margin:5px;
+	padding:10px;
+}
+.nidentify button{
+	width:70%;
+	height:100%;
+	margin:5px;
+	padding:10px;
+}

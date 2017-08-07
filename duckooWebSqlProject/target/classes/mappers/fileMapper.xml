@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.duckoo.persistence.FileDAO">
+<insert id="create" parameterType="FileVO">
+insert into tbl_fsrc (fschema, fsrc, userid) values(#{fschema},#{fsrc},#{userid})
+</insert>
+<select id="fileList" parameterType="String" resultType="FIleVO">
+select * from tbl_fsrc where userid=#{userid}
+</select>
+<select id="read" parameterType="int" resultType="FileVo">
+select * from tbl_fsrc where fno>0 and fno=#{fno}
+</select>
+<update id="update" parameterType="FileVO">
+update tbl_fsrc set fsrc=#{fsrc} where fno=#{fno}
+</update>
+</mapper>

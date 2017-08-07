@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+<style>
+
+.asdfasdfasdfasdfasdf{
+	width:100px;
+}
+i[target=pk]{
+    color:red;
+}
+.pkDiv{
+background-color: rgba(255, 0, 0, 0.2);
+ border-radius: 5px;
+}
+.fk{
+    background-color: #c8c8c8;
+    border-radius: 5px;
+}
+i[target=fk]{
+    color:#705400;
+}
+.std div{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.attrTable{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.pkTh, .pkTd, .stdTd, .fkTd {
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 12px;
+    width: 120px;
+    word-wrap:break-word;
+}
+.pkTd{
+    background-color: rgba(255, 0, 0, 0.2);
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width: 120px;
+}
+.fkTd{
+    background-color: lemonchiffon;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width: 120px;
+}
+
+.stdTd{
+	background-color: white;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	width: 120px;
+}
+.pkTh{
+	background-color: white;
+}
+
+</style>

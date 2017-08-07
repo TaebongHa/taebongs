@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+.addRow{
+    width:93%;
+    height:28px;
+    
+    margin-left:15px;
+    margin-top:10px;
+    border-bottom-style: solid;
+    border-bottom-color: #c8c8c8;
+}
+.ctitle{
+width:100px;float:left; position:relative;
+}
+.ccontent{
+float:left;position:relative;
+}
+input{
+    border-radius: 5px;
+}

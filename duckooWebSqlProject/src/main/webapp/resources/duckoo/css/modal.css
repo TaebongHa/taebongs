@@ -1,0 +1,158 @@
+@CHARSET "UTF-8";
+<style>
+.asdfasdf{
+	width:12312312;
+}
+.modal{
+    width:1200px;
+    height:700px;
+}
+.modal-body{
+    height:400px;
+     width:100%;
+}
+.modalSideBar{
+    width:17%;
+    height:100%;
+    float:left;
+    border-style: solid;
+    border-color: #787878;
+    border-radius:10px;
+    display:block;
+}
+.attrBoxHeader{
+	width:80%;
+	height:49px;
+	float:left;
+	margin-left:2%;
+    border-color: #787878;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    overflow:hidden;
+}
+.attrBox{
+    width:80%;
+    height:295px;
+    float:left;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    border-right-style:solid;
+    margin-left:2%;
+    border-color: #787878;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    overflow-y: auto;
+}
+.addAttrBtnBox{
+	float: left;
+	margin-left:2%;
+}
+
+.tbl {
+    border-collapse: collapse;
+    width: 650px;
+    height:100%;
+    float:left;
+    position:relative;
+}
+.modalTr{
+    width:678px;
+    height:50px;
+    border-bottom: 1px solid white;
+    position: relative;
+    float: left;
+    background-color: #E7E7E7;
+}
+.modalTh{
+    border-right: 2px solid white;
+    position: relative;
+    float:left;
+    width:113px;
+    height: 49px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight:bold;
+    font-size:15px;
+}
+.datas{
+    border-right: 2px solid white;
+    position: relative;
+    float:left;
+    width:113px;
+    height: 49px;
+    text-align: center;
+    padding-top: 15px;
+    overflow:auto;
+
+}
+div[name=ConstraintCheckBox]{
+    text-align: center;
+    padding-top: 15px;
+    height:0px;
+    transition:0.5s;
+    display:none;
+}
+div[name=attrDelUpBtnBox]{
+	text-align:center;
+	padding-top: 15px;
+    height:0px;
+    transition:0.5s;
+    display:none;
+}
+
+
+.attrMenu{
+      text-align: center;
+      text-decoration-line: underline;
+}
+
+.attrMenu:focus{
+    background-color:cornflowerblue;
+    border-radius: 10px;
+}
+.attrMenu:hover{
+     -webkit-transform: scale(1.2, 1.2); /* Safari */
+    transform: scale(1.2, 1.2);
+    background-color: wheat;
+    border-radius: 10px;
+}
+.deleteAttrBtn:hover{
+    cursor:pointer;
+     -webkit-transform: scale(1.2, 1.2); /* Safari */
+    transform: scale(1.2, 1.2);
+    color:red;
+
+}
+
+.addAttrBtn:hover{
+    cursor:pointer;
+     -webkit-transform: scale(1.2, 1.2); /* Safari */
+    transform: scale(1.2, 1.2);
+    color:green;
+}
+.btnWrapper{
+    float:left;
+    width:50px;
+    height:100px;
+}
+.datas:focus{
+    color: blue;
+}
+input{
+    width:50px;
+    border-style:none;
+    border-radius: 5px;
+}
+.contents{
+	height: 370px;
+}
+#tbl_name{
+	border-style: solid;
+	border-width: 2px;
+	width:50%;
+}
+
+</style>
